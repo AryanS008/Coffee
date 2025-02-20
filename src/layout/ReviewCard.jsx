@@ -12,15 +12,15 @@ const ReviewCard = (props) => {
         <div className=" mx-3">
           <h2 className=" font-semibold text-lg">{props.title}</h2>
           <div className="flex">
-            <BsStarFill className=" text-brightColor" />
-            <BsStarFill className=" text-brightColor" />
-            <BsStarFill className=" text-brightColor" />
-            <BsStarFill className=" text-brightColor" />
-            <BsStarHalf className=" text-brightColor" />
+            <BsStarFill className=" text-blue-400" />
+            <BsStarFill className=" text-blue-400" />
+            <BsStarFill className=" text-blue-400" />
+            <BsStarFill className=" text-blue-400" />
+            <BsStarHalf className="text-blue-400" />
           </div>
         </div>
         <span className=" ml-16">
-          <FaQuoteRight className=" text-backgroundColor" size={42} />
+          <FaQuoteRight className=" bg-blue-200" size={42} />
         </span>
       </div>
       <p>

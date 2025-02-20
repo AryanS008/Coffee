@@ -14,14 +14,14 @@ const MenuCard = (props) => {
         </div>
         <div className=" flex flex-row justify-between mt-3">
           <div className=" flex gap-2">
-            <button className=" px-3 text-sm border-2 border-black bg-backgroundColor hover:text-blue-400 transition-all rounded-lg">
+            <button className=" px-3 text-sm border-2 border-black bg-blue-200 hover:text-blue-950 transition-all rounded-lg">
               Hot
             </button>
-            <button className=" px-3 text-sm border-2 border-black bg-backgroundColor hover:text-blue-400 transition-all rounded-lg">
+            <button className=" px-3 text-sm border-2 border-black bg-blue-200 hover:text-blue-950 transition-all rounded-lg">
               Cold
             </button>
           </div>
-          <span className=" flex items-center bg-backgroundColor px-3 py-2 rounded-full cursor-pointer">
+          <span className=" flex items-center bg-blue-200 px-3 py-2 rounded-full cursor-pointer">
             <FaShoppingCart size={20} />
           </span>
         </div>

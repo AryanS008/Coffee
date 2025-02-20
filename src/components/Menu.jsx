@@ -10,7 +10,7 @@ import MenuCard from "../layout/MenuCard";
 
 const Menu = () => {
   return (
-  <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5 bg-backgroundColor">
+  <div className=" min-h-screen flex flex-col justify-center lg:px-32 px-5 bg-blue-200">
         <h1 className=" font-semibold text-center text-4xl mt-24 mb-8">Our Menu</h1>
 
        <div className=" flex flex-wrap pb-8 gap-8 justify-center">

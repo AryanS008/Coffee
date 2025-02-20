@@ -7,7 +7,7 @@ import img3 from '../assets/image/product3.jpg';
 
 const Product = () => {
   return (
-    <div className=' min-h-screen flex flex-col justify-center lg:px-32 px-5 bg-backgroundColor'>
+    <div className=' min-h-screen flex flex-col justify-center lg:px-32 px-5 bg-blue-200'>
         <h2 className=' font-semibold text-center text-4xl lg:mt-14 mt-24 mb-8'>Our Product</h2>
 
         <div className=' flex flex-col lg:flex-row gap-12 justify-center'>
